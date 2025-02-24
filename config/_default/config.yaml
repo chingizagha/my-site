@@ -28,9 +28,7 @@ params:
     safari_pinned_tab: "../blog_icon.png"
 
   label:
-    text: "AppDelegate"
-    icon: "../blog_icon.png"
-    iconHeight: 28
+    text: "chingizagha"
 
   # profile-mode
   profileMode:
