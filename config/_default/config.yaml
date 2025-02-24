@@ -1,0 +1,94 @@
+baseURL: "https://example.org/"
+title: chingizagha
+theme: PaperMod-master
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production 
+  title: chingizagha
+  keywords: [iOS, Mobile, Developer, Swift]
+  author: chingiz
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+
+  assets:
+    disableHLJS: true 
+    favicon: "../blog_icon.png"
+    favicon16x16: "../blog_icon.png"
+    favicon32x32: "../blog_icon.png"
+    apple_touch_icon: "../blog_icon.png"
+    safari_pinned_tab: "../blog_icon.png"
+
+  label:
+    text: "AppDelegate"
+    icon: "../blog_icon.png"
+    iconHeight: 28
+
+  # profile-mode
+  profileMode:
+    enabled: false 
+    title: AppDelegate
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi! \U0001F44B"
+    Content: my name is chingiz
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/chingizagha"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/chingiz-agha/"
+    - name: twitter
+      url: "https://twitter.com/CingizAga"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-LELRQ5MPLQ"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true 
+    hiddenInList: true 
+    hiddenInSingle: true 
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+  highlight:
+    # noClasses: false
+    style: xcode-dark
+    
+  tableOfContents:
+    startLevel: 1
+    endLevel: 2
+
