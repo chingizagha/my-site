@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+baseURL: "https://chingizagha.com/"
 title: chingizagha
 theme: PaperMod-master
 
@@ -33,7 +33,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false 
-    title: AppDelegate
+    title: chingizagha
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
