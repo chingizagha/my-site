@@ -43,8 +43,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! \U0001F44B"
-    Content: my name is chingiz
+    Title: "Hi! 👋"
+    Content: My name is Chingiz. I'm Swift developer. Creator of [Remy](https://remy.chingizagha.com).
+
 
   socialIcons:
     - name: github
