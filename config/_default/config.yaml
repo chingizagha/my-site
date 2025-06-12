@@ -28,7 +28,7 @@ params:
     safari_pinned_tab: "../blog_icon.png"
 
   label:
-    text: "chingizagha"
+    text: home
 
   # profile-mode
   profileMode:
@@ -44,7 +44,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi! 👋"
-    Content: My name is Chingiz. I'm Swift developer. Creator of [Remy](https://remy.chingizagha.com).
+    Content: My name is Chingiz. I'm Swift developer. Creator of [Remy](https://remy.chingizagha.com) and [Quizy](https://quizy.chingizagha.com).
 
 
   socialIcons:
